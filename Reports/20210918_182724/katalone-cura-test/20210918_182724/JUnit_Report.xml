@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="katalone-cura-test" time="118.781" tests="12" failures="0" errors="0">
+   <testsuite name="katalone-cura-test" tests="12" failures="0" errors="0" time="118.781" skipped="0" timestamp="2021-09-18 18:27:27" hostname="Th33NGi - DESKTOP-0SLHRM9" id="Test Suites/katalone-cura-test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Th33NGi\\katalon-workspace\\katalon_automations\\Reports\\20210918_182724\\katalone-cura-test\\20210918_182724"/>
+         <property name="logFiles" value="C:\\Users\\Th33NGi\\katalon-workspace\\katalon_automations\\Reports\\20210918_182724\\katalone-cura-test\\20210918_182724\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Th33NGi - DESKTOP-0SLHRM9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 93.0.4577.82"/>
+         <property name="hostAddress" value="192.168.0.2"/>
+         <property name="sessionId" value="cc200f214ca6169fb4189b51b4efd88f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_home_elements_present_and_visible" time="12.009" classname="Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_home_elements_present_and_visible" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:27:27 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_home_elements_present_and_visible: Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_home_elements_present_and_visible
+
+2021-09-18 18:27:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:27:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:27:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:27:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:27:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:27:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:27:30 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:27:34 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:27:34 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:27:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:27:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/text_elements/h1_title_cura_healthcare_service"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/header_elements/h3_we_care_about_your_health_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/header_elements/h3_we_care_about_your_health_home' is visible
+
+2021-09-18 18:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/header_elements/h3_we_care_about_your_health_home' is visible
+
+2021-09-18 18:27:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_make_appointment_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/link-elements/a_make_appointment_home' is visible
+
+2021-09-18 18:27:36 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_make_appointment_home' is visible
+
+2021-09-18 18:27:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_menu_toggle_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:27:36 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:27:36 - [TEST_STEP][PASSED] - scrollToPosition(0, 275): Browser is scrolled to position x = 0, y = 275
+
+2021-09-18 18:27:36 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 275
+
+2021-09-18 18:27:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/text_elements/h4_title_cura_healthcare_service"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/text_elements/h4_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h4_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/paragraph-elements/p_address_atlanta_550_pharr_road_ne_suite_525_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_address_atlanta_550_pharr_road_ne_suite_525_home' is visible
+
+2021-09-18 18:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/paragraph-elements/p_address_atlanta_550_pharr_road_ne_suite_525_home' is visible
+
+2021-09-18 18:27:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/list_elements/li_cellphone_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/list_elements/li_cellphone_home' is visible
+
+2021-09-18 18:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/list_elements/li_cellphone_home' is visible
+
+2021-09-18 18:27:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/list_elements/li_email_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/list_elements/li_email_home' is visible
+
+2021-09-18 18:27:38 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/list_elements/li_email_home' is visible
+
+2021-09-18 18:27:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/list_elements/ul_social_networks_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/list_elements/ul_social_networks_home' is visible
+
+2021-09-18 18:27:38 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/list_elements/ul_social_networks_home' is visible
+
+2021-09-18 18:27:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/paragraph-elements/p_copyright_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_copyright_home' is visible
+
+2021-09-18 18:27:38 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/paragraph-elements/p_copyright_home' is visible
+
+2021-09-18 18:27:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_back_to_top_home")): Object 'Object Repository/katalone_cura_page/link-elements/a_back_to_top_home' is visible
+
+2021-09-18 18:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_back_to_top_home' is visible
+
+2021-09-18 18:27:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-09-18 18:27:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_menu_elements_present_and_visible" time="7.714" classname="Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_menu_elements_present_and_visible" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:27:39 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_menu_elements_present_and_visible: Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_menu_elements_present_and_visible
+
+2021-09-18 18:27:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:27:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:27:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:27:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:27:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:27:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:27:41 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:27:44 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:27:44 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:27:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:27:44 - [TEST_STEP][PASSED] - aMenuToggle = verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_menu_toggle_home")): Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:27:45 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:27:45 - [TEST_STEP][PASSED] - if (TRUE): Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:27:45 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/link-elements/a_menu_toggle_home")): Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:27:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_cura_healthcare_menu"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/link-elements/a_cura_healthcare_menu' is visible
+
+2021-09-18 18:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_cura_healthcare_menu' is visible
+
+2021-09-18 18:27:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_home_menu")): Object 'Object Repository/katalone_cura_page/link-elements/a_home_menu' is visible
+
+2021-09-18 18:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_home_menu' is visible
+
+2021-09-18 18:27:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_login_menu")): Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:27:47 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:27:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-09-18 18:27:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Home_page/Validate_scroll_down_and_scroll_up" time="8.966" classname="Test Cases/katalon-cura-page/scenarios/Home_page/Validate_scroll_down_and_scroll_up" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:27:47 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Home_page/Validate_scroll_down_and_scroll_up: Test Cases/katalon-cura-page/scenarios/Home_page/Validate_scroll_down_and_scroll_up
+
+2021-09-18 18:27:47 - [TEST_STEP][PASSED] - h1HomeTitle = "katalone_cura_page/text_elements/h1_title_cura_healthcare_service": null
+
+2021-09-18 18:27:47 - [TEST_STEP][PASSED] - pHomeCopyright = "katalone_cura_page/text_elements/p_text_copyright_home": null
+
+2021-09-18 18:27:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:27:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:27:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:27:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:27:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:27:49 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:27:49 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:27:52 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:27:52 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:27:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:27:52 - [TEST_STEP][PASSED] - if (FALSE): Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:52 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:52 - [TEST_STEP][PASSED] - else: Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:52 - [TEST_STEP][PASSED] - scrollToPosition(0, 350): Browser is scrolled to position x = 0, y = 350
+
+2021-09-18 18:27:52 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2021-09-18 18:27:52 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:27:53 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/p_text_copyright_home' is visible
+
+2021-09-18 18:27:53 - [TEST_STEP][PASSED] - scrollToPosition(350, 0): Browser is scrolled to position x = 350, y = 0
+
+2021-09-18 18:27:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 350, y = 0
+
+2021-09-18 18:27:53 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:27:53 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:53 - [TEST_STEP][PASSED] - scrollToPosition(0, 350): Browser is scrolled to position x = 0, y = 350
+
+2021-09-18 18:27:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2021-09-18 18:27:53 - [TEST_STEP][PASSED] - aBackToTop = waitForElementVisible(findTestObject("katalone_cura_page/link-elements/a_back_to_top_home"), 1): Object 'Object Repository/katalone_cura_page/link-elements/a_back_to_top_home' is visible
+
+2021-09-18 18:27:54 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_back_to_top_home' is visible
+
+2021-09-18 18:27:54 - [TEST_STEP][PASSED] - if (TRUE): Object: 'Object Repository/katalone_cura_page/link-elements/a_back_to_top_home' is clicked on
+
+2021-09-18 18:27:54 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/link-elements/a_back_to_top_home"), STOP_ON_FAILURE): Object: 'Object Repository/katalone_cura_page/link-elements/a_back_to_top_home' is clicked on
+
+2021-09-18 18:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_back_to_top_home' is clicked on
+
+2021-09-18 18:27:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("katalone_cura_page/text_elements/h1_title_cura_healthcare_service"), 1): Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:54 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:54 - [TEST_STEP][PASSED] - if (FALSE): Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:55 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:27:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-09-18 18:27:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_make_appointment_link" time="6.265" classname="Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_make_appointment_link" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:27:56 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_make_appointment_link: Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_make_appointment_link
+
+2021-09-18 18:27:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:27:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:27:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:27:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:27:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:27:58 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:27:58 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:00 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:00 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:28:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:28:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_make_appointment_home"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/link-elements/a_make_appointment_home' is visible
+
+2021-09-18 18:28:01 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_make_appointment_home' is visible
+
+2021-09-18 18:28:01 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/link-elements/a_make_appointment_home")): Object: 'Object Repository/katalone_cura_page/link-elements/a_make_appointment_home' is clicked on
+
+2021-09-18 18:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_make_appointment_home' is clicked on
+
+2021-09-18 18:28:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("katalone_cura_page/text_elements/h2_title_login"), 2): Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-09-18 18:28:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_menu_toggle_link" time="6.633" classname="Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_menu_toggle_link" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:28:02 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_menu_toggle_link: Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_menu_toggle_link
+
+2021-09-18 18:28:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:28:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:28:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:28:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:28:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:28:04 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:28:04 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:06 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:28:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:28:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_menu_toggle_home")): Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:28:06 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:28:06 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/link-elements/a_menu_toggle_home")): Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:28:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/link-elements/a_login_menu")): Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:28:07 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:28:07 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/link-elements/a_login_menu")): Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:28:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("katalone_cura_page/text_elements/h2_title_login"), 2): Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:08 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-09-18 18:28:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" time="11.988" classname="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:28:09 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data: Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data
+
+2021-09-18 18:28:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:28:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:28:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:28:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:28:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:28:11 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:28:11 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:14 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:14 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:28:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:28:14 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:28:15 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:28:16 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:28:17 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:17 - [TEST_STEP][PASSED] - inputUser = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_username_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:17 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:17 - [TEST_STEP][PASSED] - inputPass = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_password_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:17 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:17 - [TEST_STEP][PASSED] - btnLogin = verifyElementVisible(findTestObject("katalone_cura_page/button-elements/btn_login")): Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:18 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:18 - [TEST_STEP][PASSED] - if (TRUE && TRUE): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:18 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_username_login"), username): Text '' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:18 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_password_login"), password): Text '' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:19 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/button-elements/btn_login")): Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:20 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+2021-09-18 18:28:20 - [TEST_STEP][PASSED] - else: Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/paragraph-elements/p_error_message_login")): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:20 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:20 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-09-18 18:28:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" time="9.619" classname="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:28:21 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data: Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data
+
+2021-09-18 18:28:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:28:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:28:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:28:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:28:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:28:23 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:28:23 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:24 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:24 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:28:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:28:24 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:28:25 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:28:26 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:28:27 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:27 - [TEST_STEP][PASSED] - inputUser = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_username_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:27 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:27 - [TEST_STEP][PASSED] - inputPass = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_password_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:27 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:27 - [TEST_STEP][PASSED] - btnLogin = verifyElementVisible(findTestObject("katalone_cura_page/button-elements/btn_login")): Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:28 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:28 - [TEST_STEP][PASSED] - if (TRUE && TRUE): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:28 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_username_login"), username): Text 'null' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:28 - [MESSAGE][PASSED] - Text 'null' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:28 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_password_login"), password): Text 'null' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:29 - [MESSAGE][PASSED] - Text 'null' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:29 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/button-elements/btn_login")): Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:30 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+2021-09-18 18:28:30 - [TEST_STEP][PASSED] - else: Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/paragraph-elements/p_error_message_login")): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:30 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:30 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-09-18 18:28:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" time="9.935" classname="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:28:31 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data: Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data
+
+2021-09-18 18:28:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:28:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:28:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:28:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:28:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:28:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:28:32 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:34 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:34 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:28:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:28:34 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:28:34 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:28:35 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:28:36 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:36 - [TEST_STEP][PASSED] - inputUser = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_username_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:37 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:37 - [TEST_STEP][PASSED] - inputPass = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_password_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:37 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:37 - [TEST_STEP][PASSED] - btnLogin = verifyElementVisible(findTestObject("katalone_cura_page/button-elements/btn_login")): Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:37 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:37 - [TEST_STEP][PASSED] - if (TRUE && TRUE): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:37 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_username_login"), username): Text 'Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:38 - [MESSAGE][PASSED] - Text 'Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:38 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_password_login"), password): Text '' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:39 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/button-elements/btn_login")): Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:39 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+2021-09-18 18:28:39 - [TEST_STEP][PASSED] - else: Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/paragraph-elements/p_error_message_login")): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:40 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:40 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-09-18 18:28:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" time="10.078" classname="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:28:41 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data: Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data
+
+2021-09-18 18:28:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:28:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:28:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:28:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:28:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:28:42 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:28:42 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:44 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:44 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:28:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:28:44 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:28:45 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:28:45 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:28:46 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:28:46 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:46 - [TEST_STEP][PASSED] - inputUser = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_username_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:47 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:47 - [TEST_STEP][PASSED] - inputPass = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_password_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:47 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:47 - [TEST_STEP][PASSED] - btnLogin = verifyElementVisible(findTestObject("katalone_cura_page/button-elements/btn_login")): Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:47 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:47 - [TEST_STEP][PASSED] - if (TRUE && TRUE): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:47 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_username_login"), username): Text 'John Doe' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:48 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_password_login"), password): Text 'Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:49 - [MESSAGE][PASSED] - Text 'Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.Login failed! Please ensure the username and password are valid.' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:49 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/button-elements/btn_login")): Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:50 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+2021-09-18 18:28:50 - [TEST_STEP][PASSED] - else: Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/paragraph-elements/p_error_message_login")): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:50 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:50 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-09-18 18:28:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" time="9.432" classname="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:28:51 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data: Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data
+
+2021-09-18 18:28:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:28:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:28:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:28:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:28:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:28:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:28:52 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:54 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:28:54 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:28:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:28:54 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:28:54 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:28:55 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:28:56 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:28:56 - [TEST_STEP][PASSED] - inputUser = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_username_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:28:57 - [TEST_STEP][PASSED] - inputPass = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_password_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:28:57 - [TEST_STEP][PASSED] - btnLogin = verifyElementVisible(findTestObject("katalone_cura_page/button-elements/btn_login")): Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:28:57 - [TEST_STEP][PASSED] - if (TRUE && TRUE): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:57 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_username_login"), username): Text 'test' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:58 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:28:58 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_password_login"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:59 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:28:59 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/button-elements/btn_login")): Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:28:59 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+2021-09-18 18:28:59 - [TEST_STEP][PASSED] - else: Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:28:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/paragraph-elements/p_error_message_login")): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:29:00 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-09-18 18:29:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" time="10.193" classname="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:29:00 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data: Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data
+
+2021-09-18 18:29:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:29:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:29:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:29:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:29:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:29:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:29:02 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:29:04 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:29:04 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:29:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:29:04 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:29:04 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:29:05 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:29:06 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:29:06 - [TEST_STEP][PASSED] - inputUser = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_username_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:29:07 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:29:07 - [TEST_STEP][PASSED] - inputPass = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_password_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:29:07 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:29:07 - [TEST_STEP][PASSED] - btnLogin = verifyElementVisible(findTestObject("katalone_cura_page/button-elements/btn_login")): Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:29:07 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:29:07 - [TEST_STEP][PASSED] - if (TRUE && TRUE): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:29:07 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_username_login"), username): Text '123.+-*/' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:29:08 - [MESSAGE][PASSED] - Text '123.+-*/' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:29:08 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_password_login"), password): Text '123.+-*/' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:29:09 - [MESSAGE][PASSED] - Text '123.+-*/' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:29:09 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/button-elements/btn_login")): Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:29:09 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+2021-09-18 18:29:09 - [TEST_STEP][PASSED] - else: Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:29:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("katalone_cura_page/paragraph-elements/p_error_message_login")): Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:29:10 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login' is visible
+
+2021-09-18 18:29:10 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-09-18 18:29:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" time="14.644" classname="Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data" status="PASSED">
+         <system-out><![CDATA[2021-09-18 18:29:11 - [TEST_CASE][PASSED] - Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data: Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data
+
+2021-09-18 18:29:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-18 18:29:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-18 18:29:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-18 18:29:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-18 18:29:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-18 18:29:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-18 18:29:12 - [TEST_STEP][PASSED] - navigateToUrl(url2): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:29:16 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-18 18:29:16 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-09-18 18:29:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-18 18:29:16 - [TEST_STEP][PASSED] - if (TRUE): null
+
+2021-09-18 18:29:16 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:29:17 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is visible
+
+2021-09-18 18:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_login_menu' is clicked on
+
+2021-09-18 18:29:18 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h2_title_login' is visible
+
+2021-09-18 18:29:18 - [TEST_STEP][PASSED] - inputUser = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_username_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_username_login' is visible
+
+2021-09-18 18:29:19 - [TEST_STEP][PASSED] - inputPass = verifyElementVisible(findTestObject("katalone_cura_page/input-elements/input_password_login"), STOP_ON_FAILURE): Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/input-elements/input_password_login' is visible
+
+2021-09-18 18:29:19 - [TEST_STEP][PASSED] - btnLogin = verifyElementVisible(findTestObject("katalone_cura_page/button-elements/btn_login")): Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/button-elements/btn_login' is visible
+
+2021-09-18 18:29:19 - [TEST_STEP][PASSED] - if (TRUE && TRUE): Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:29:19 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_username_login"), username): Text 'John Doe' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:29:20 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/katalone_cura_page/input-elements/input_username_login'
+
+2021-09-18 18:29:20 - [TEST_STEP][PASSED] - setText(findTestObject("katalone_cura_page/input-elements/input_password_login"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:29:21 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/katalone_cura_page/input-elements/input_password_login'
+
+2021-09-18 18:29:21 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/button-elements/btn_login")): Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/button-elements/btn_login' is clicked on
+
+2021-09-18 18:29:21 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:29:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalone_cura_page/header_elements/h2_make_appointment_appointment"), 1): Object 'Object Repository/katalone_cura_page/header_elements/h2_make_appointment_appointment' is present
+
+2021-09-18 18:29:22 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/header_elements/h2_make_appointment_appointment' is present
+
+2021-09-18 18:29:22 - [TEST_STEP][PASSED] - h2AppointmentTitle = waitForElementVisible(findTestObject("katalone_cura_page/link-elements/a_menu_toggle_home"), 1): Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:29:22 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is visible
+
+2021-09-18 18:29:22 - [TEST_STEP][PASSED] - aLogout = waitForElementPresent(findTestObject("katalone_cura_page/link-elements/a_logout_home"), 1): Object 'Object Repository/katalone_cura_page/link-elements/a_logout_home' is present
+
+2021-09-18 18:29:23 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/link-elements/a_logout_home' is present
+
+2021-09-18 18:29:23 - [TEST_STEP][PASSED] - if (TRUE && TRUE): Object: 'Object Repository/katalone_cura_page/link-elements/a_logout_home' is clicked on
+
+2021-09-18 18:29:23 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/link-elements/a_menu_toggle_home")): Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:29:23 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_menu_toggle_home' is clicked on
+
+2021-09-18 18:29:23 - [TEST_STEP][PASSED] - click(findTestObject("katalone_cura_page/link-elements/a_logout_home")): Object: 'Object Repository/katalone_cura_page/link-elements/a_logout_home' is clicked on
+
+2021-09-18 18:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/katalone_cura_page/link-elements/a_logout_home' is clicked on
+
+2021-09-18 18:29:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("katalone_cura_page/text_elements/h1_title_cura_healthcare_service"), 2): Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:29:25 - [MESSAGE][PASSED] - Object 'Object Repository/katalone_cura_page/text_elements/h1_title_cura_healthcare_service' is visible
+
+2021-09-18 18:29:25 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-09-18 18:29:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-18 18:27:27 - [TEST_SUITE][PASSED] - katalone-cura-test: Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
